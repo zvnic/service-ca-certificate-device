@@ -1,4 +1,12 @@
 
+
+git rm -r --cached .
+
+pip freeze > requirements.txt
+
+uvicorn app:app --reload
+
+
 POST /generate_certificate
 Content-Type: application/json
 
