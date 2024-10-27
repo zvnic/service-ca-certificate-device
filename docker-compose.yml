@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  cert_service:
+    build: .
+    ports:
+      - "7770:8000"
+    volumes:
+      - ./data:/app/data  # Монтируем директорию для хранения сертификатов

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сертификат и ключ устройства</title>
+</head>
+<body>
+    <h1>Сертификат и ключ для устройства</h1>
+
+    <h2>Закрытый ключ устройства</h2>
+    <pre>{{ device_key }}</pre>
+    <a href="{{ device_key_path }}" download>Скачать закрытый ключ</a>
+
+    <h2>Сертификат устройства</h2>
+    <pre>{{ device_cert }}</pre>
+    <a href="{{ device_cert_path }}" download>Скачать сертификат устройства</a>
+
+    <h2>Корневой сертификат CA</h2>
+    <pre>{{ ca_cert }}</pre>
+    <a href="{{ ca_cert_path }}" download>Скачать корневой сертификат</a>
+
+    <a href="/">Назад к форме</a>
+</body>
+</html>

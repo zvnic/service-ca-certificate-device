@@ -1,0 +1,9 @@
+
+POST /generate_certificate
+Content-Type: application/json
+
+{
+  "device_id": "device_12345"
+}
+
+GET /ca_certificate

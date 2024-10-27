@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запрос на сертификат</title>
+</head>
+<body>
+    <h1>Генерация сертификата и ключа устройства</h1>
+    <form action="/generate_certificate" method="post">
+        <label for="device_id">ID устройства:</label>
+        <input type="text" id="device_id" name="device_id" required>
+        <button type="submit">Получить ключи и сертификат</button>
+    </form>
+</body>
+</html>
